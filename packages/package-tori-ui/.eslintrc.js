@@ -5,6 +5,7 @@ module.exports = {
   extends: ["@repo/eslint-config/eslint.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: "./tsconfig.json",
+    project: true,
   },
 }
+
