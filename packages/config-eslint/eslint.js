@@ -27,6 +27,7 @@ module.exports = {
     "dist/",
     "build/",
     "node_modules/",
+    "**/*.json"
   ],
   rules: {
     "no-var": ["error"],
