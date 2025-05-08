@@ -1,0 +1,28 @@
+{
+  "name": "with-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "start": "next dev --turbopack",
+    "build": "next build",
+    "startup": "next start",
+    "format": "next lint --fix",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@repo/tori-ui": "*",
+    "next": "15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^20.11.24",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^8.57.1",
+    "typescript": "5.5.4"
+  }
+}
