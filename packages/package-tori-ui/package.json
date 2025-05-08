@@ -2,7 +2,8 @@
   "name": "@repo/tori-ui",
   "version": "0.1.0",
   "license": "MIT",
-  "main": "tori-ui/index.ts",
+  "main": "./build/index.js",
+  "module": "./build/index.mjs",
   "scripts": {
     "dev": "tsup tori-ui/index.ts --format esm,cjs --watch --dts",
     "start": "tsup tori-ui/index.ts --format esm,cjs --watch --dts",
@@ -25,7 +26,7 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "eslint": "^8.57.1",
-    "tsup": "^8.0.2",
-    "typescript": "5.5.4"
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
   }
 }
