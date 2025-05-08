@@ -1,4 +1,4 @@
-// Application Component || Define Exports
+// Application Structure || Define Exports
 // =======================================================================================
 // =======================================================================================
 export default function RootPage() {
