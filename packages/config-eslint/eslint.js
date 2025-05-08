@@ -28,9 +28,6 @@ module.exports = {
     "build/",
     "node_modules/",
   ],
-  overrides: [{
-    files: ["*.js?(x)", "*.ts?(x)"],
-  }],
   rules: {
     "no-var": ["error"],
     "no-tabs": ["error"],

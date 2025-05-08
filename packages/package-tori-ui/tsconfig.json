@@ -1,6 +1,12 @@
 {
   "extends": "@repo/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react"
+  },
   "include": [
-    "./tori-ui/**/*.{js,jsx,ts,tsx}",
-  ]
+    "tori-ui/**/*.js",
+    "tori-ui/**/*.jsx",
+    "tori-ui/**/*.ts",
+    "tori-ui/**/*.tsx"
+  ],
 }
