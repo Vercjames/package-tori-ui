@@ -1,6 +1,6 @@
 {
   "extends": "@repo/typescript-config/tsconfig.json",
   "include": [
-    "./tori-ui/**/*.ts"
+    "./tori-ui/**/*.{js,jsx,ts,tsx}",
   ]
 }

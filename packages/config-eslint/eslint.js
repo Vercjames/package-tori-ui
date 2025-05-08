@@ -39,6 +39,7 @@ module.exports = {
     "quotes": ["error", "double"],
     // NOTE: "_" function variables use this unused placeholder
     "no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
     "import/prefer-default-export": ["off"],
     // NOTE: Typologies are often placed at the bottom of the file
     "no-use-before-define": ["off"],
