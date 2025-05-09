@@ -5,7 +5,8 @@
   "private": true,
   "files": [
     "eslint.js",
-    "nextjs.js"
+    "nextjs.js",
+    "react.js"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",

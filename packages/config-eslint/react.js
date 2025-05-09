@@ -2,10 +2,6 @@
  ** =================================================================================== */
 /** @type {import("eslint").Linter.Config} ============================================ */
 module.exports = {
-  extends: [
-    "@repo/eslint-config/eslint.js",
-    require.resolve("@vercel/style-guide/eslint/next"),
-  ],
   globals: {
     React: true,
     JSX: true,
