@@ -4,11 +4,16 @@
 module.exports = {
   extends: [
     "@repo/eslint-config/eslint.js",
-    "@repo/eslint-config/react.js"
+    require.resolve("@vercel/style-guide/eslint/next"),
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: true,
+  globals: {
+    React: true,
+    JSX: true,
   },
+  env: {
+    node: true,
+  },
+  rules: {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+  }
 }
-
