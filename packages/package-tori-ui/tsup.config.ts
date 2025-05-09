@@ -8,6 +8,9 @@ export default defineConfig({
   entry: {
     ".": "tori-ui/index.ts",
   },
+  banner: {
+    js: "'use client'",
+  },
   outDir: "build",
   format: ["cjs", "esm"],
   external: ["react"],
